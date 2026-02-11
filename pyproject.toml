@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vision-ai-recaptcha-solver"
-version = "1.0.4"
+version = "1.0.5"
 description = "AI powered reCAPTCHA solver using YOLO object detection"
 readme = "README.md"
 license = "MIT"
@@ -55,7 +55,7 @@ Issues = "https://github.com/DannyLuna17/VisionAIRecaptchaSolver/issues"
 include-package-data = true
 
 [tool.setuptools.packages.find]
-where = ["."]
+where = ["src"]
 include = ["vision_ai_recaptcha_solver*"]
 
 [tool.setuptools.package-data]
